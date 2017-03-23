@@ -1,0 +1,112 @@
+/* * * * * Menu * * * * * */
+
+.cr-menu-option {
+  -fx-background-radius: 0;
+  -fx-background-color: transparent;
+  -fx-text-fill: white;
+  -fx-cursor: hand;
+}
+
+#cr-menu {
+  -fx-background-color: #732c2c;
+  -fx-padding: 10px 0px 10px 0px;
+}
+
+#cr-menu-toggle {
+  -fx-fill: #420c14;
+  -fx-cursor: hand;
+}
+
+/* * * * * Content Area * * * * */
+
+#cr-editor {
+  -fx-background-insets: 0;
+  -fx-background-color: transparent, #eff7cf, transparent, #eff7cf;
+  -fx-focus-color: -fx-control-inner-background ;
+  -fx-faint-focus-color: -fx-control-inner-background ;
+  -fx-highlight-fill: #e5ddcc;
+  -fx-highlight-text-fill: -fx-text-fill;
+}
+
+#cr-editor .content {
+  -fx-background-color: transparent, #eff7cf, transparent, #eff7cf;
+}
+
+#cr-editor:disabled {
+  -fx-background-color: transparent, #420c14, transparent, #420c14;
+}
+
+#cr-editor:disabled .content {
+  -fx-background-color: transparent, #420c14, transparent, #420c14;
+}
+
+#cr-editor-tools {
+  -fx-background-color: #732c2c;
+  -fx-border-width: 0px 0px 3px 0px;
+  -fx-border-color: #420c14;
+  -fx-border-style: solid;
+}
+
+#cr-tabs-button {
+  -fx-background-color: transparent;
+  -fx-background-radius: 0;
+  -fx-effect: null;
+  -fx-focus-color: -fx-control-inner-background;
+  -fx-cursor: hand;
+}
+
+#cr-tabs-area {
+  -fx-background-color: #420c14;
+}
+
+.cr-tab {
+  -fx-padding: 5px;
+  -fx-cursor: hand;
+}
+
+.cr-tab-tag {
+  -fx-alignment: center;
+  -fx-text-fill: white;
+  -fx-font: 12px 'sans-serif';
+}
+
+.cr-tab-preview {
+  -fx-background-color: #eff7cf;
+  -fx-text-fill: black;
+  -fx-font: 3px 'sans-serif';
+  -fx-background-radius: 0;
+}
+
+.cr-tab-preview .content {
+  -fx-background-radius: 0;
+  -fx-background-color: transparent, #eff7cf, transparent, #eff7cf;
+  -fx-cursor: hand;
+}
+
+.cr-tab-preview .scroll-pane {
+  -fx-vbar-policy: never;
+}
+
+.cr-tab-remove-btn {
+  -fx-font: bold 10px 'sans-serif';
+  -fx-background-color: transparent;
+  -fx-text-fill: black;
+}
+
+.cr-tab-unselected,
+.cr-tab-unselected .content {
+  -fx-background-color: transparent, #66494d, transparent, #66494d;
+}
+
+/* * * * * Bottom Toolbar * * * * */
+
+#cr-bottom-tools {
+  -fx-background-color: #732c2c;
+  -fx-border-width: 3px 0px 0px 0px;
+  -fx-border-color: #420c14;
+}
+
+#cr-numbers-button {
+  -fx-background-color: transparent;
+  -fx-cursor: hand;
+}
